@@ -1,4 +1,4 @@
-FROM pbarnoux/maven-angular-base
+FROM massimosiani/maven-angular-base
 MAINTAINER Pierre Barnoux <pbarnoux@gmail.com>
 
 # Additional dependencies required to run yo angular with default options
