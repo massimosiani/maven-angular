@@ -31,4 +31,7 @@ chmod -R 777 /root/.npm
 ls -ail /root > /dev/null
 printf "[%12s] done, now executing requested command\n" "setenv.sh" >> /var/log/startup_sequence
 
+alias bower="bower --allow-root"
+alias grunt="grunt --allow-root"
+
 exec "$@"
